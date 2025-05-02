@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  padding-left: 115px;
+  padding-right: 115px;
+  margin-top: 60px;
+}
+
+.storageContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.storageIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.storageText {
+  color: var(--font-color-secondary);
+  font-size: 15px;
+}
+
+.title {
+  color: var(--font-color-primary);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+  margin-bottom: 45px;
+  margin-top: 20px;
+}
+
+.headerText {
+  color: var(--font-color-secondary);
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.image {
+  width: 560px;
+  height: 461px;
+}
+
+.greenButton {
+  font-size: 14px;
+  margin-top: 35px;
+  width: 133px;
+  height: 38px;
+}
+
+.benefitsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  border-bottom: 2px dashed grey;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding-bottom: 50px;
+}
+
+.benefit {
+  color: var(--font-color-secondary);
+  font-size: 15px;
+  max-width: 240px;
+}
