@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  padding-left: 115px;
+  padding-right: 115px;
+  border-top: 2px dashed grey;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--font-color-primary);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+  margin-top: 130px;
+  margin-bottom: 16px;
+}
+
+.introText {
+  color: var(--font-color-secondary);
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+}
+
+.additionalText {
+  color: var(--font-color-secondary);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin-bottom: 64px;
+}
+
+.imageContainer {
+  display: flex;
+}
+
+.image {
+  width: 560px;
+  height: 415px;
+}
+
+.content {
+  color: var(--font-color-secondary);
+  margin-left: 180px;
+}
+
+.subtitleOne,
+.subtitleTwo {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.subtitleTwo {
+  margin-top: 38px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+.innerText {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.profileText {
+  background: rgb(43, 43, 43);
+  padding: 20px;
+}
+
+.createdText {
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.nextjsText {
+  font-size: 14px;
+  margin-left: 21px;
+  margin-top: 21px;
+}
+
+.button {
+  margin-left: 21px;
+  width: 92px;
+  height: 32px;
+}

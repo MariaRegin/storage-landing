@@ -53,7 +53,6 @@
   display: flex;
   justify-content: center;
   gap: 70px;
-  border-bottom: 2px dashed grey;
   max-width: 700px;
   margin: 0 auto;
   margin-top: 90px;
