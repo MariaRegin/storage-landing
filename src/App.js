@@ -3,6 +3,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import SecurityBlock from "./components/SecurityBlock/SecurityBlock";
+import Offer from "./components/Offer/Offer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Dashboard />
       <ApiBlock />
       <SecurityBlock />
+      <Offer />
     </div>
   );
 }
