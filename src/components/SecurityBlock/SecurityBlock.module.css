@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  padding-left: 115px;
+  padding-right: 115px;
+  margin-top: 70px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+  margin-right: 140px;
+  padding-bottom: 64px;
+}
+
+.title {
+  color: var(--font-color-primary);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.2px;
+  letter-spacing: 0%;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.additionalText {
+  color: var(--font-color-secondary);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.image {
+  width: 528px;
+  height: 357px;
+}
