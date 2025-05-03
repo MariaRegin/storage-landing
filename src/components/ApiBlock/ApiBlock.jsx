@@ -6,7 +6,7 @@ import soon from "../../assets/icons/soon.png";
 
 const ApiBlock = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="api">
       <div div className={styles.content}>
         <h2 className={styles.title}>Simple and convenient APIs</h2>
         <p className={styles.additionalText}>

@@ -5,7 +5,7 @@ import button from "../../assets/icons/button.png";
 
 const Dashboard = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="dashboard">
       <div className={styles.mainText}>
         <h2 className={styles.title}>
           Sleek dashboard for managing your media

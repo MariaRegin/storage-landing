@@ -3,7 +3,7 @@ import security from "../../assets/images/security.png";
 
 const SecurityBlock = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="security">
       <div div className={styles.content}>
         <h2 className={styles.title}>Integrates natively with Supabase Auth</h2>
         <p className={styles.additionalText}>
