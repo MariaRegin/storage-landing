@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  padding-left: 115px;
+  padding-right: 115px;
+  margin-top: 170px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+  margin-right: 140px;
+  margin-bottom: 64px;
+}
+
+.title {
+  color: var(--font-color-primary);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.2px;
+  letter-spacing: 0%;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.additionalText {
+  color: var(--font-color-secondary);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.benefitsContainer {
+  display: flex;
+  gap: 70px;
+  margin-top: 60px;
+  padding-bottom: 25px;
+}
+
+.benefit {
+  color: var(--font-color-secondary);
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.imageSoon {
+  background: rgb(54, 54, 54);
+  border-radius: 10px;
+  padding: 5px 16px 5px 16px;
+}
+
+.image {
+  width: 528px;
+  height: 511px;
+}

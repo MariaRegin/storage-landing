@@ -47,6 +47,8 @@
 
 .content {
   color: var(--font-color-secondary);
+  border-bottom: 1px solid grey;
+  padding-bottom: 21px;
   margin-left: 180px;
 }
 
