@@ -1,16 +1,19 @@
 import styles from "./Navbar.module.css";
 import icon from "../../assets/icons/icon.png";
 import StartProjectButton from "../StartProjectButton/StartProjectButton";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
-  const handleClick = () => {
-    alert("Start your project!");
+  const handleSignIn = () => {
+    toast.success("Sign in is coming soon!");
   };
 
   return (
     <nav className={styles.container}>
       <div className={styles.left}>
-        <img className={styles.icon} src={icon} alt="Icon" />
+        <div className={styles.logoWrapper}>
+          <img className={styles.icon} src={icon} alt="Icon" />
+        </div>
         <ul className={styles.ul}>
           <li>
             <a href="#dashboard">Dashboard</a>
@@ -30,7 +33,7 @@ const Navbar = () => {
         <StartProjectButton classname={styles.greenButton}>
           Start your project
         </StartProjectButton>
-        <button className={styles.transparentButton} onClick={handleClick}>
+        <button className={styles.transparentButton} onClick={handleSignIn}>
           Sign in
         </button>
       </div>

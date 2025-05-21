@@ -77,7 +77,7 @@
 }
 
 .profileText {
-  background: rgb(43, 43, 43);
+  background: var(--background-color-secondary);
   padding: 20px;
 }
 

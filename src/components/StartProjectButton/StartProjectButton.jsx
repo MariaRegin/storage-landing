@@ -1,12 +1,16 @@
 import styles from "./StartProjectButton.module.css";
+import { toast } from "react-toastify";
 
 const StartProjectButton = ({ children, classname = "" }) => {
-  const handleClick = () => {
-    alert("Start your project!");
+  const handleStartProject = () => {
+    toast.info("This feature will be available soon!");
   };
 
   return (
-    <button className={`${styles.button} ${classname}`} onClick={handleClick}>
+    <button
+      className={`${styles.button} ${classname}`}
+      onClick={handleStartProject}
+    >
       {children}
     </button>
   );

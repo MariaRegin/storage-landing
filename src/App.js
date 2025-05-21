@@ -7,6 +7,8 @@ import Offer from "./components/Offer/Offer";
 import Footer from "./components/Footer/Footer";
 import { useTheme } from "./providers/ThemeProvider/useTheme";
 import { useEffect } from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const { theme } = useTheme();
@@ -25,6 +27,7 @@ function App() {
       <SecurityBlock />
       <Offer />
       <Footer />
+      <ToastContainer position="top-right" autoClose={2000} />
     </div>
   );
 }
